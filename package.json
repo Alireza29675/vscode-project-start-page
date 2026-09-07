@@ -1,0 +1,52 @@
+{
+  "name": "vscode-project-start-page",
+  "displayName": "Project Start Page",
+  "description": "Replaces the Welcome page in empty windows with a clickable list of your Project Manager projects.",
+  "version": "0.2.0",
+  "publisher": "alireza29675",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "extensionDependencies": [
+    "alefragnani.project-manager"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "projectStartPage.show",
+        "title": "Show Start Page",
+        "category": "Project Start Page"
+      }
+    ],
+    "configuration": {
+      "title": "Project Start Page",
+      "properties": {
+        "projectStartPage.openOnEmptyWindow": {
+          "type": "boolean",
+          "default": true,
+          "description": "Open the start page automatically when a window has no folder open."
+        }
+      }
+    },
+    "keybindings": [
+      {
+        "command": "projectStartPage.show",
+        "key": "ctrl+alt+p",
+        "mac": "ctrl+cmd+p"
+      }
+    ]
+  },
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alireza29675/vscode-project-start-page.git"
+  }
+}

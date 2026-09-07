@@ -1,0 +1,4 @@
+.vscodeignore
+*.vsix
+.gitignore
+media/icon.svg
