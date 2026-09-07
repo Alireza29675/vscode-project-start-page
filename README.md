@@ -1,8 +1,10 @@
-# vscode-project-start-page
-
-A VS Code extension that replaces the Welcome page in empty windows with a clickable list of all your projects.
-
 ![icon](media/icon.png)
+
+# Project Start Page (VSCode extension)
+
+A VSCode extension that replaces the Welcome page in empty windows with a clickable list of all your projects.
+
+<img width="3010" height="1918" alt="blurred-image" src="https://github.com/user-attachments/assets/32ab541b-5f27-4571-b9e5-90b13c05e8e1" />
 
 ## Requires
 
